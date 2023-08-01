@@ -9,14 +9,14 @@ body,html {
 
 @font-face {
     font-family: 'Allison';
-    src: url('Fonts/Allison-Regular.woff') format('woff');
+    src: url('../Fonts/Allison-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CutiveMono';
-    src: url('Fonts/CutiveMono-Regular.woff') format('woff');
+    src: url('../Fonts/CutiveMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -65,7 +65,7 @@ body,html {
 }
 
 .section-one .art_one {
-    background-image: url(../media/art_one.svg);
+    background-image: url(media/art_one.svg);
     background-position: 0;
     background-repeat: no-repeat;
     background-size: contain;
