@@ -90,7 +90,7 @@ body,html {
 }
 
 .section-two:after {
-    background-image: url(../media/art_two.svg);
+    background-image: url(media/art_two.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
