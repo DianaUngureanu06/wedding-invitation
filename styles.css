@@ -1,0 +1,276 @@
+body,html {
+    background-color: #133446;
+    background-size: 100%;
+    color: #f7e4d0;
+    font-family: CutiveMono, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+@font-face {
+    font-family: 'Allison';
+    src: url('fonts/Allison-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CutiveMono';
+    src: url('fonts/CutiveMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex--center-column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.App {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.App>div {
+    width: 100%;
+}
+
+.section-one, main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one {
+    align-items: center;
+    height: calc(50vh - 15px);
+    justify-content: space-evenly;
+}
+
+.section-one .names>span {
+    font-family: 'Allison', sans-serif;
+    font-size: 13vw;
+    opacity: 1; 
+    transition: opacity 1300ms linear 1012ms;
+}
+
+.section-one, .date, .section-one, .date_art {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: opacity 1300ms linear 1012ms;
+}
+
+.section-one .art_one {
+    background-image: url(/media/art_one.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20vh;
+}
+
+.section-two {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    letter-spacing: 2px;
+    max-width: 100%;
+    padding: 80px 0;
+    position: relative;
+    text-align: center;
+}
+
+.section-two:after {
+    background-image: url(/media/art_two.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -30px;
+    content: "";
+    height: 112px;
+    position: absolute;
+    right: auto;
+    right: 0;
+    top: auto;
+    width: 127px;
+    z-index: 0
+}
+
+.section-two div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.section-two>span {
+    color: #fff;
+    margin: 12px 0
+}
+
+.section-two .names {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: CutiveMono, sans-serif;
+}
+
+.section-two .message {
+    margin-top: 20px;
+    max-width: 80%;
+    text-align: center
+}
+
+.section-two .light {
+    color: #37368f;
+    font-weight: 300;
+    letter-spacing: .2em;
+    margin-bottom: 15px;
+    text-transform: uppercase
+}
+
+.section-two .bold {
+    font-weight: 700
+}
+
+.section-two .dark {
+    color: #b8860b
+}
+
+.section-three .location-details {
+    font-size: 18px;
+    padding: 50px 0;
+    text-align: center
+}
+
+.section-three .location-details .title {
+    font-size: 34px;
+    letter-spacing: 1px
+}
+
+.section-three .location-details img {
+    margin-top: 20px;
+    width: 50px
+}
+
+.section-three .location-details.location-details .event-name {
+    color: #fff;
+    font-size: 20px;
+    margin: 7px 0 15px;
+    text-transform: uppercase
+}
+
+button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    padding: 18px 25px;
+    text-transform: uppercase;
+}
+
+.section-four {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 0;
+    text-align: center;
+    width: 550px!important
+}
+
+.section-four img {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    max-width: 215px
+}
+
+.section-four .title {
+    font-size: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+.section-four span {
+    font-size: 18px;
+    margin-bottom: 40px
+}
+
+.section-four span:first-of-type {
+    color: #fff;
+    margin-bottom: 20px
+}
+
+.section-four form {
+    width: 100%
+}
+
+.section-four form>div {
+    display: flex;
+    width: 100%
+}
+
+.section-four input,.section-four select,.section-four textarea {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-family: Playfair Display,sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0 12px 10px;
+    width: 100%
+}
+
+.section-four input option,.section-four select option,.section-four textarea option {
+    background-color: #133446
+}
+
+.section-four textarea {
+    min-height: 70px
+}
+
+.section-four input::-webkit-input-placeholder,.section-four textarea::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+    padding-left: 3px
+}
+
+.section-four input::placeholder,.section-four textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+    padding-left: 3px
+}
+
+.section-four input:-ms-input-placeholder,.section-four textarea:-ms-input-placeholder {
+    color: #fff;
+    padding-left: 3px
+}
+
+.section-four input::-ms-input-placeholder,.section-four textarea::-ms-input-placeholder {
+    color: #fff;
+    padding-left: 3px
+}
+
+.section-four button {
+    width: 270px
+}
+
+.section-four .message {
+    font-size: 20px;
+    justify-content: center;
+    margin: 10px 0
+}
