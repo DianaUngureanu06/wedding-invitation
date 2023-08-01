@@ -9,14 +9,14 @@ body,html {
 
 @font-face {
     font-family: 'Allison';
-    src: url('../../fonts/Allison-Regular.woff') format('woff');
+    src: url('fonts/Allison-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CutiveMono';
-    src: url('../../fonts/CutiveMono-Regular.woff') format('woff');
+    src: url('fonts/CutiveMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
