@@ -53,15 +53,13 @@ body,html {
 .section-one .names>span {
     font-family: 'Allison', sans-serif;
     font-size: 13vw;
-    opacity: 1; 
-    transition: opacity 1300ms linear 1012ms;
+    opacity: 1;
 }
 
 .section-one, .date, .section-one, .date_art {
     font-size: 40px;
     margin-bottom: 15px;
     text-align: center;
-    transition: opacity 1300ms linear 1012ms;
 }
 
 .section-one .art_one {
