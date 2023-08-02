@@ -39,12 +39,9 @@ body,html {
     width: 100%;
 }
 
-.section-one, main {
+.section-one {
     display: flex;
     flex-direction: column;
-}
-
-.section-one {
     align-items: center;
     height: calc(50vh - 15px);
     justify-content: space-evenly;
